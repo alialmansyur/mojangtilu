@@ -1,0 +1,64 @@
+body {
+    background-color: #fff;
+}
+
+#auth {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#auth #auth-right {
+    background: 
+        url(../../../assets/images/illustrator-3.png) no-repeat center center fixed, 
+        linear-gradient(90deg, #d7e7fc, #d7e7fc);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#auth #auth-left {
+    padding: 5rem 8rem;
+}
+
+#auth #auth-left .auth-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#auth #auth-left .auth-subtitle {
+    color: #a8aebb;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+
+#auth #auth-left .auth-logo {
+    margin-bottom: 3rem;
+}
+
+#auth #auth-left .auth-logo img {
+    height: 3rem;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 767px) {
+    #auth #auth-left {
+        padding: 5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #auth #auth-left {
+        padding: 5rem 3rem;
+    }
+}
+
+/* Theme dark mode */
+body.theme-dark #auth-right {
+    background: 
+        url(../../../assets/images/illustrator-3.png) no-repeat center center fixed, 
+        linear-gradient(90deg, #d7e7fc, #d7e7fc);
+    background-size: contain; /* Sama seperti mode light */
+    background-position: right;
+}

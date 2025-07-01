@@ -1,0 +1,30 @@
+CRITICAL - 2025-03-07 10:43:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Apps/layouts/main_layout.php"
+[Method: GET, Route: manage-user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Apps/layouts/main_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Apps/layouts/main_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Apps/_blank', [], true)
+ 4 APPPATH\Controllers\BaseController.php(74): view('Apps/_blank', [...])
+ 5 APPPATH\Controllers\Apps\AppsController.php(72): App\Controllers\BaseController->renderView('Apps/_blank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Apps\AppsController->datausers()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps\AppsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\presensi-online\\public\\index.php')
+CRITICAL - 2025-03-07 10:50:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Apps/layouts/main_layout.php"
+[Method: GET, Route: manage-user]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Apps/layouts/main_layout.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('Apps/layouts/main_layout', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('Apps/_blank', [], true)
+ 4 APPPATH\Controllers\BaseController.php(74): view('Apps/_blank', [...])
+ 5 APPPATH\Controllers\Apps\AppsController.php(72): App\Controllers\BaseController->renderView('Apps/_blank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Apps\AppsController->datausers()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Apps\AppsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\2. Project\\WebApps Presensi PPNPN BKN\\public\\index.php')
