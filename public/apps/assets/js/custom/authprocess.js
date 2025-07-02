@@ -16,7 +16,6 @@ $(document).ready(function () {
         };
 
         formData.append('fingerprint', JSON.stringify(fingerprint));
-        
         fetch('/authprocess', {
                 method: 'POST',
                 body: formData,
@@ -26,13 +25,7 @@ $(document).ready(function () {
                 if (data.status === 'success') {
                     localStorage.setItem('active_menu', 7);
                     localStorage.setItem('jwt_token', data.token);
-                    localStorage.setItem('locationiq_key', data.locationiq);
-                    if (data.role == 'ADM') {
-                        window.location.href = "/home";
-                    } else {
-                        window.location.href = "/presensi-online";
-                    }
-
+                    window.location.href = "/home"
                 } else {
                     let errorMessage = data.messages;
                     if (typeof errorMessage === 'object') {
@@ -48,13 +41,5 @@ $(document).ready(function () {
                     });
                 }
             })
-            .catch(error => {
-                console.error('Error:', error);
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops!',
-                    text: 'Terjadi kesalahan, coba lagi.',
-                });
-            });
     });
 });

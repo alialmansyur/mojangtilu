@@ -39,7 +39,6 @@ class AppsModel extends Model
         $data = $this->db->query("
             SELECT * FROM auth_users WHERE id = '$user'
         ")->getRow();
-
         return $data->userimage;
     }
 
@@ -62,6 +61,11 @@ class AppsModel extends Model
         return $builder->get()->getResultArray();
     }
 
-
+    public function validateEnrolled($param,$enroll){
+        $builder = $this->db->table('trx_enroll');
+        $builder->where('nip', $param);
+        $builder->where('layanan_id', $enroll);
+        return $builder->get()->getResultArray();
+    }
 
 }

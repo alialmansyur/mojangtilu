@@ -44,9 +44,9 @@ $routes->group('', ['filter' => 'jwtauth'], function ($routes) {
     $routes->post('/reset-data', 'Apps\AjxController::resetPassword');
     $routes->post('uploadAvatar', 'Apps\AjxController::uploadAvatar');
 
-    // fetch data
+    // fetch & enroll data
     $routes->post('/fetch-layanan', 'Apps\FetchData::fetchLayanan');
-
+    $routes->post('/store-enroll', 'Apps\FetchData::enrolltask'); 
 
     // $routes->get('/sclgn', 'Apps\AppsController::xxx');
 

@@ -1,28 +1,10 @@
 <?= $this->extend('Apps/layouts/main_layout'); ?>
 <?= $this->section('content'); ?>
-
-<style>
-    .card-hover-border {
-        /* transition: border 0.2s, box-shadow 0.2s !important; */
-        border: 1px solid transparent !important;
-        cursor: pointer;
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .card-hover-border:hover {
-        border: 1px solid var(--bs-primary) !important;
-        transform: translateY(-4px);
-        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-        /* box-shadow: 0 0 0 0.1rem rgba(67, 94, 190, 0.25) !important; */
-    }
-</style>
-
 <div class="page-content d-flex align-items-center justify-content-center min-vh-100">
     <div class="container-sm px-4 text-start mx-auto" style="max-width: 900px; padding: 0 2rem;">
         <h2 class="fw-bold text-primary" style="font-size: 2.4rem;">
             <strong> Halo, Ali</strong></h2>
         <h4 class="text-muted" style="font-weight: 400;">Apa yang akan kamu kerjakan hari ini ?</h4>
-
         <div class="row d-flex align-items-stretch mt-4 g-3">
             <div class="col-6 col-md-3 mb-4">
                 <div class="card text-center h-75 shadow-sm card-hover-border">
@@ -119,7 +101,5 @@
             </div>
         </div>
     </div>
-</div>
-
 </div>
 <?= $this->endSection(); ?>

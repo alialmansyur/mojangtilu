@@ -47,13 +47,5 @@ $(document).ready(function () {
                     });
                 }
             })
-            .catch(error => {
-                console.error('Error:', error);
-                Swal.fire({
-                    icon: 'error',
-                    title: 'Oops!',
-                    text: 'Terjadi kesalahan, coba lagi.',
-                });
-            });
     });
 });

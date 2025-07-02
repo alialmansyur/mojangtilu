@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>MojangTilu | Kanreg Tilu</title>
+	<title>Mojang Tilu | Kanreg Tilu</title>
     <link rel="shortcut icon" href="<?= base_url('apps/');?>assets/images/logo/favicon.png?v=2" type="image/x-icon">
     <link rel="shortcut icon" href="<?= base_url('apps/');?>assets/images/logo/favicon.png?v=2" type="image/png">
     <link rel="stylesheet" href="<?= base_url('apps/');?>assets/css/main/app.css?v=2">
@@ -30,6 +30,7 @@
                     </div>
                     <h1 class="auth-title mb-2">MojangTilu</h1>
                     <p class="auth-subtitle mt-0 mb-4">Log in using credentials</p>
+                    <div style="height:25px;"></div>
                     <form id="loginForm">
                         <div class="form-group position-relative has-icon-left mb-4">
                             <input type="text" class="form-control form-control-lg rounded" name="o_userlogin" required

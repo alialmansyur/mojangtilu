@@ -31,9 +31,32 @@ class FetchData extends BaseController
         $request = $this->request->getJSON();
         $keyword = $request->keyword ?? '';
         $unit    = $request->unit ?? 0;
-
-        return $this->response->setJSON([
+        return $this->response->setStatusCode(200)->setJSON([
+            'status' => 'success',
             'list'  => $this->apps->getLayananData($user, $keyword, $unit)
+        ]);
+    }
+
+    public function enrolltask(){
+        $sess = session()->get();
+        $user = $sess['username'];
+
+        $request    = $this->request->getJSON();
+        $enroll_id  = $request->enrolled ?? '';
+
+        $validate   = $this->apps->validateEnrolled($user,$enroll_id);
+        if (!empty($validate)) {
+            return $this->response->setJSON([
+                'status' => false,
+                'message' => 'Task sudah di enroll, silahkan cek pada menu My Task'
+            ]);
+        }
+
+        $data = array('nip' => $user,'layanan_id' => $enroll_id);
+        $this->apps->storeData($data, 'trx_enroll');
+        return $this->response->setStatusCode(200)->setJSON([
+            'status' => 'success',
+            'message' => 'Task has been enrolled',
         ]);
     }
 

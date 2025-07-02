@@ -38,6 +38,5 @@ function logout() {
     localStorage.removeItem('active_menus');
     localStorage.removeItem('active_submenu');
     localStorage.clear();
-    window.location.href = "/logout"; 
-}	
-
+    window.location.href = "/logout";
+}
