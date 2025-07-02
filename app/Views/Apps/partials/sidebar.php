@@ -44,7 +44,7 @@
 		</div>
 		<div class="sidebar-menu">
 			<ul class="menu">
-				<li class="sidebar-title">Presensi Apps</li>
+				<li class="sidebar-title">Mojang Tilu Apps</li>
 
 				<?php foreach ($menus as $menu): ?>
 				<?php if (count($menu['submenus']) > 0): ?>
@@ -76,14 +76,12 @@
 				<?php endforeach; ?>
 
 				<li class="sidebar-title">Other</li>
-
 				<li class="sidebar-item  ">
 					<a href="#" class='sidebar-link' data-bs-toggle="modal" data-bs-target="#change-password">
 						<i class="bi bi-gear"></i>
 						<span>Change Password</span>
 					</a>
 				</li>
-
 				<li class="sidebar-item">
 					<a href="#" onclick="logout()" class='sidebar-link'>
 						<i class="bi bi-power text-danger"></i>

@@ -19,43 +19,20 @@ class AppsModel extends Model
         return $this->db->insertID();
     }
 
-    public function getDataPegawai(){
-        return $this->db->query("
-            SELECT 
-                a.*, b.posisi posisiname
-            FROM data_member a
-            LEFT JOIN data_posisi b ON b.id = a.unit_id
-            WHERE nip <> '199707252024211004'
-            ORDER BY a.nama ASC
-        ")->getResultArray();
+    public function updateData($data, $id, $table)
+    {
+        return $this->db->table($table)->where('id', $id)->update($data);
     }
 
-    public function getUnitList(){
-        return $this->db->query("
-            SELECT *
-            FROM data_posisi 
-            ORDER BY posisi ASC
-        ")->getResultArray();
+    public function removeData($id, $table)
+    {
+        return $this->db->table($table)->where('id', $id)->delete();
     }
 
-    public function getDataMovable(){
-        return $this->db->query("
-            SELECT 
-                a.*, b.nama, c.posisi posisiname
-            FROM data_movable a
-            LEFT JOIN data_member b ON b.nip = a.nip 
-            LEFT JOIN data_posisi c ON c.id = b.unit_id
-            WHERE month(presence_date) = month(curdate())
-            ORDER BY a.presence_date DESC
-        ")->getResultArray();
-    }
-
-    public function getSetupBase(){
-        return $this->db->query("
-            SELECT *
-            FROM presence_setting a
-            ORDER BY a.id ASC
-        ")->getResultArray();
+    public function insertBatchData($data,$table)
+    {
+        $this->table = $table;
+        return $this->db->table($this->table)->insertBatch($data);
     }
 
     public function getAvatar($user){
@@ -66,9 +43,25 @@ class AppsModel extends Model
         return $data->userimage;
     }
 
-    public function getInfoProfil($user){
-        return $this->db->query("
-            SELECT * FROM data_member WHERE nip = '$user'
-        ")->getRow();
+    public function getLayananData($param, $keyword = '', $unit = '0')
+    {
+        $builder = $this->db->table('data_layanan')->orderBy('alias', 'ASC');
+
+        if ($unit !== '0') {
+            $builder->where('bidang_id', $unit);
+        }
+
+        if ($keyword !== '') {
+            $builder->groupStart()
+                ->like('nama_layanan', $keyword)
+                ->orLike('alias', $keyword)
+                ->orLike('kategori', $keyword)
+                ->groupEnd();
+        }
+
+        return $builder->get()->getResultArray();
     }
+
+
+
 }

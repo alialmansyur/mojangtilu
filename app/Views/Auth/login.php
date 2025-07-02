@@ -7,7 +7,7 @@
 	<title>MojangTilu | Kanreg Tilu</title>
     <link rel="shortcut icon" href="<?= base_url('apps/');?>assets/images/logo/favicon.png?v=2" type="image/x-icon">
     <link rel="shortcut icon" href="<?= base_url('apps/');?>assets/images/logo/favicon.png?v=2" type="image/png">
-    <link rel="stylesheet" href="<?= base_url('apps/');?>assets/css/main/app.css">
+    <link rel="stylesheet" href="<?= base_url('apps/');?>assets/css/main/app.css?v=2">
     <link rel="stylesheet" href="<?= base_url('apps/');?>assets/css/pages/auth.css?v=2">
     <link rel="stylesheet" href="<?= base_url('apps/');?>assets/extensions/toastify-js/src/toastify.css">
     <script src="<?= base_url('apps/'); ?>assets/extensions/jquery/jquery.min.js"></script>
@@ -15,7 +15,7 @@
     <script src="<?= base_url('apps/'); ?>assets/js/custom/authprocess.js?v=4.0"></script>
     <style>
         .rounded{
-            border-radius: 0.75em !important; 
+            border-radius: 0.95em !important; 
         }
     </style>
 </head>

@@ -4,12 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Presensi | Kanreg Tilu</title>
+	<title>Mojang Tilu | Kanreg Tilu</title>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 	<link rel="shortcut icon" href="<?= base_url('apps/'); ?>assets/images/logo/favicon.svg?v=2" type="image/x-icon">
 	<link rel="shortcut icon" href="<?= base_url('apps/'); ?>assets/images/logo/favicon.png?v=2" type="image/png">
+	
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/app.css?v=1.2">
-	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/shared/iconly.css">
+	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/app-dark.css?v=1.2">
     <link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.css">
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/sweetalert2/sweetalert2.min.css">
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/select2/select2.min.css"/>
@@ -29,10 +30,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
-
-	<link rel="stylesheet" href="<?= base_url('apps/assets/js/'); ?>slide-form/css/slide-to-submit.css?v=2">
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 </head>
 

@@ -1,4 +1,3 @@
-<div style="height:50px"></div>
 </div>
 <script src="<?= base_url('apps/'); ?>assets/js/bootstrap.js"></script>
 <script src="<?= base_url('apps/'); ?>assets/js/app.js"></script>
