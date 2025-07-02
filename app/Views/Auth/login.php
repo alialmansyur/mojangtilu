@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Mojang Tilu | Kanreg Tilu</title>
+    <title>Mojang Tilu | Kanreg Tilu</title>
     <link rel="shortcut icon" href="<?= base_url('apps/');?>assets/images/logo/favicon.png?v=2" type="image/x-icon">
     <link rel="shortcut icon" href="<?= base_url('apps/');?>assets/images/logo/favicon.png?v=2" type="image/png">
     <link rel="stylesheet" href="<?= base_url('apps/');?>assets/css/main/app.css?v=2">
@@ -14,13 +14,13 @@
     <script src="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.js"></script>
     <script src="<?= base_url('apps/'); ?>assets/js/custom/authprocess.js?v=4.0"></script>
     <style>
-        .rounded{
-            border-radius: 0.95em !important; 
+        .rounded {
+            border-radius: 0.95em !important;
         }
     </style>
 </head>
 
-<body> 
+<body>
     <div id="auth">
         <div class="row h-100">
             <div class="col-lg-5 col-12">
@@ -63,4 +63,5 @@
         </div>
     </div>
 </body>
+
 </html>

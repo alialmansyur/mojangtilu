@@ -46,6 +46,7 @@ $routes->group('', ['filter' => 'jwtauth'], function ($routes) {
 
     // fetch & enroll data
     $routes->post('/fetch-layanan', 'Apps\FetchData::fetchLayanan');
+    $routes->post('/fetch-layanan-enrolled', 'Apps\FetchData::fetchLayananByNIP');
     $routes->post('/store-enroll', 'Apps\FetchData::enrolltask'); 
 
     // $routes->get('/sclgn', 'Apps\AppsController::xxx');

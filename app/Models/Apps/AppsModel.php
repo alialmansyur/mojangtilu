@@ -68,4 +68,14 @@ class AppsModel extends Model
         return $builder->get()->getResultArray();
     }
 
+    public function getLayananEnrolledData($user){
+        return $this->db->query("
+            SELECT 
+                b.*, a.created_at enrolled_at 
+            FROM trx_enroll a 
+            LEFT JOIN data_layanan b ON b.id = a.layanan_id
+            WHERE a.nip = '$user'
+        ")->getResultArray();
+    }
+
 }

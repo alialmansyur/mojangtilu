@@ -61,8 +61,7 @@
                                 <div class="d-flex justify-content-center align-items-center" style="height:500px;">
                                     <div class="text-center text-primary">
                                         <span class="spinner-border spinner-border-sm me-2 text-primary" role="status"
-                                            aria-hidden="true"></span>
-                                        Processing...
+                                            aria-hidden="true"></span> Sedang memproses data ...
                                     </div>
                                 </div>
                             </div>
@@ -76,5 +75,5 @@
 </div>
 <?= $this->endSection(); ?>
 <?= $this->section('scripts'); ?>
-<script src="<?= base_url('apps/assets/js/custom/pages/taskExplore.js?v=2'); ?>"></script>
+<script src="<?= base_url('apps/assets/js/custom/pages/taskExplore.js?v=2.2.5'); ?>"></script>
 <?= $this->endSection(); ?>

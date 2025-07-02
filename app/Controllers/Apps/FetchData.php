@@ -15,7 +15,6 @@ use DateTime;
 
 class FetchData extends BaseController
 {
-
     use ResponseTrait;
     public function __construct()
     {
@@ -34,6 +33,15 @@ class FetchData extends BaseController
         return $this->response->setStatusCode(200)->setJSON([
             'status' => 'success',
             'list'  => $this->apps->getLayananData($user, $keyword, $unit)
+        ]);
+    }
+
+    public function fetchLayananByNIP(){
+        $sess = session()->get();
+        $user = $sess['username'];
+        return $this->response->setStatusCode(200)->setJSON([
+            'status' => 'success',
+            'list'  => $this->apps->getLayananEnrolledData($user)
         ]);
     }
 

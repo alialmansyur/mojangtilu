@@ -533,14 +533,21 @@ body.modal-open::before {
     }
 }
 
-.bg-pattern {
-    background-image: repeating-radial-gradient(circle at 0 0,
-            rgba(255, 255, 255, 0.05),
-            rgba(255, 255, 255, 0.05) 5px,
-            transparent 5px,
-            transparent 15px);
-}
+/* .bg-pattern-dark {
+  background-image: repeating-radial-gradient(circle at 0 0,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 5px,
+      transparent 5px,
+      transparent 15px);
+} */
 
+.bg-pattern {
+  background-image: repeating-radial-gradient(circle at 0 0,
+      rgba(0, 0, 0, 0.01),
+      rgba(0, 0, 0, 0.01) 2px,
+      transparent 5px,
+      transparent 10px);
+}
 
 .card-hover-border {
     /* transition: border 0.2s, box-shadow 0.2s !important; */
@@ -551,7 +558,7 @@ body.modal-open::before {
 
 .card-hover-border:hover {
     border: 1px solid var(--bs-primary) !important;
-    transform: translateY(-4px);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
     /* box-shadow: 0 0 0 0.1rem rgba(67, 94, 190, 0.25) !important; */
 }

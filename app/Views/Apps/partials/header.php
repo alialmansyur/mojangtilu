@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.css">
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/sweetalert2/sweetalert2.min.css">
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/select2/select2.min.css"/>
-	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/custom.css?v=4.5">
+	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/custom.css?v=5">
 	<script src="<?= base_url('apps/'); ?>assets/extensions/sweetalert2/sweetalert2.all.min.js"></script>
 	<script src="<?= base_url('apps/'); ?>assets/extensions/jquery/jquery.min.js"></script>
     <script src="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.js"></script>

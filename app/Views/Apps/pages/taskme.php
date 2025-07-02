@@ -5,58 +5,17 @@
         <h2 class="fw-bold text-primary" style="font-size: 2.4rem;">
             <strong> Halo, Ali</strong></h2>
         <h4 class="text-muted" style="font-weight: 400;">Apa yang akan kamu kerjakan hari ini ?</h4>
-        <div class="row d-flex align-items-stretch mt-4 g-3">
-            <div class="col-6 col-md-3 mb-4">
-                <div class="card text-center h-75 shadow-sm card-hover-border">
-                    <div class="card-body mb-2" data-bs-toggle="modal" data-bs-target="#quickActionModal"
-                        style="cursor:pointer;">
-                        <i class="bi bi-folder-check fs-2 text-primary mb-2"></i>
-                        <h5 class="fw-bold">Peremajaan</h5>
-                        <p class="text-muted small mb-0 mt-auto d-none d-md-block">
-                            Approval peremajaan data SIASN
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 mb-4">
-                <div class="card text-center h-75 shadow-sm card-hover-border">
-                    <div class="card-body mb-2" data-bs-toggle="modal" data-bs-target="#quickActionModal"
-                        style="cursor:pointer;">
-                        <i class="bi bi-folder-check fs-2 text-primary mb-2"></i>
-                        <h5 class="fw-bold">Integrasi</h5>
-                        <p class="text-muted small mb-0 mt-auto d-none d-md-block">
-                            Progres integrasi SIMPEG Instansi
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 mb-4">
-                <div class="card text-center h-75 shadow-sm card-hover-border">
-                    <div class="card-body mb-2" data-bs-toggle="modal" data-bs-target="#quickActionModal"
-                        style="cursor:pointer;">
-                        <i class="bi bi-folder-check fs-2 text-primary mb-2"></i>
-                        <h5 class="fw-bold">Takah Digital</h5>
-                        <p class="text-muted small mb-0 mt-auto d-none d-md-block">
-                            Transformasi dokumen fisik ke bentuk digital
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-6 col-md-3 mb-4">
-                <div class="card text-center h-75 shadow-sm card-hover-border">
-                    <div class="card-body mb-2" data-bs-toggle="modal" data-bs-target="#quickActionModal"
-                        style="cursor:pointer;">
-                        <i class="bi bi-folder-check fs-2 text-primary mb-2"></i>
-                        <h5 class="fw-bold">Arsip Dinamis</h5>
-                        <p class="text-muted small mb-0 mt-auto d-none d-md-block">
-                            Mengelola dokumen aktif secara terstruktur
-                        </p>
+        <div class="row d-flex align-items-stretch g-3 mt-4" id="loaded">
+            <div class="col-md-12" id="spinLoadData">
+                <div class="d-flex justify-content-center align-items-center" style="height:250px;">
+                    <div class="text-center text-primary">
+                        <span class="spinner-border spinner-border-sm me-2 text-soft" role="status"
+                            aria-hidden="true"></span> Sedang memproses data ...
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <div class="modal fade" id="quickActionModal" tabindex="-1" aria-labelledby="quickActionModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
@@ -102,4 +61,7 @@
         </div>
     </div>
 </div>
+<?= $this->endSection(); ?>
+<?= $this->section('scripts'); ?>
+<script src="<?= base_url('apps/assets/js/custom/pages/taskMe.js?v=3'); ?>"></script>
 <?= $this->endSection(); ?>
