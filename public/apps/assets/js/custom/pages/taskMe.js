@@ -1,7 +1,6 @@
 loadData();
 
 async function loadData(keyword = '') {
-    var unit = '0';
     const response = await fetch('/fetch-layanan-enrolled', {
         method: 'POST',
         headers: {
@@ -9,7 +8,6 @@ async function loadData(keyword = '') {
         }
     });
     const data = await response.json();
-    console.log(data);
     pageLoaded(data);
 }
 
@@ -36,7 +34,7 @@ function pageLoaded(data) {
         $.each(data.list, function (index, value) {
             var card = `
                 <div class="col-12 col-md-3">
-                    <div class="card text-center h-100 card-hover-border card-daily-task" data-key="${value.id}" data-alias="${value.alias}">
+                    <div class="card text-center h-100 card-hover-border card-daily-task" data-key="${value.id}" data-alias="${value.alias}" data-code="${value.code}">
                         <div class="card-body" style="cursor:pointer;">
                             <i class="bi bi-folder-check fs-1 text-primary mb-2"></i>
                             <h5 class="fw-bold">${value.alias}</h5>
@@ -54,6 +52,16 @@ function pageLoaded(data) {
     $('.card-daily-task').on('click', function () {
         var keydata = $(this).attr('data-key');
         var aliases = $(this).attr('data-alias');
+        var code    = $(this).attr('data-code');
+
+        var urlupload   = '/upload-' + code;
+        var urlentry    = '/entry-' + code;
+        var urlinfo     = '/info-' + code;
+
+        $('.card-upload').on('click', function () {
+            window.location.href = urlupload;
+        })
+
         $('#quickActionModal').modal('show');
     });
 }

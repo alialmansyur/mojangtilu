@@ -62,7 +62,7 @@ class AppsModel extends Model
     }
 
     public function validateEnrolled($param,$enroll){
-        $builder = $this->db->table('trx_enroll');
+        $builder = $this->db->table('txn_enroll');
         $builder->where('nip', $param);
         $builder->where('layanan_id', $enroll);
         return $builder->get()->getResultArray();
@@ -72,10 +72,25 @@ class AppsModel extends Model
         return $this->db->query("
             SELECT 
                 b.*, a.created_at enrolled_at 
-            FROM trx_enroll a 
+            FROM txn_enroll a 
             LEFT JOIN data_layanan b ON b.id = a.layanan_id
             WHERE a.nip = '$user'
         ")->getResultArray();
     }
+
+    public function getInstansiID($param){
+        $param = strtolower(str_replace('.', '', $param));
+        $param = $this->db->escapeLikeString($param);
+        $query = $this->db->query("
+            SELECT a.*
+            FROM data_instansi a
+            WHERE LOWER(REPLACE(a.nama, '.', '')) LIKE '%$param%'
+            LIMIT 1
+        ");
+
+        $data = $query->getRow();
+        return $data ? $data->id : null;
+    }
+
 
 }

@@ -1,6 +1,13 @@
 <?= $this->extend('Apps/layouts/main_layout'); ?>
 <?= $this->section('content'); ?>
+<style>
+    .shct{
+        cursor:pointer !important;
+    }
+</style>
+
 <div class="page-content d-flex align-items-center justify-content-center min-vh-100">
+    
     <div class="container-sm px-4 text-start mx-auto" style="max-width: 900px; padding: 0 2rem;">
         <h2 class="fw-bold text-primary" style="font-size: 2.4rem;">
             <strong> Halo, Ali</strong></h2>
@@ -16,13 +23,14 @@
             </div>
         </div>
     </div>
+
     <div class="modal fade" id="quickActionModal" tabindex="-1" aria-labelledby="quickActionModalLabel"
         aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body p-4">
                     <h5 class="fw-bold mb-4">Quick Action</h5>
-                    <div class="card mb-3 border border-1">
+                    <div class="card mb-3 border border-1 shct card-upload">
                         <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 me-3">
                                 <i class="bi bi-upload fs-2 text-primary"></i>
@@ -33,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 border border-1">
+                    <div class="card mb-3 border border-1 scht card-entry">
                         <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 me-3">
                                 <i class="bi bi-input-cursor-text fs-2 text-primary"></i>
@@ -45,7 +53,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card mb-3 border border-1">
+                    <div class="card mb-3 border border-1 shct card-info">
                         <div class="card-body d-flex align-items-center">
                             <div class="flex-shrink-0 me-3">
                                 <i class="bi bi-info-circle-fill fs-2 text-primary"></i>
@@ -63,5 +71,5 @@
 </div>
 <?= $this->endSection(); ?>
 <?= $this->section('scripts'); ?>
-<script src="<?= base_url('apps/assets/js/custom/pages/taskMe.js?v=3'); ?>"></script>
+<script src="<?= base_url('apps/assets/js/custom/pages/taskMe.js?v=4'); ?>"></script>
 <?= $this->endSection(); ?>

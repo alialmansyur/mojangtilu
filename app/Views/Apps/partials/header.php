@@ -10,11 +10,11 @@
 	<link rel="shortcut icon" href="<?= base_url('apps/'); ?>assets/images/logo/favicon.png?v=2" type="image/png">
 	
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/app.css?v=1.2">
-	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/app-dark.css?v=1.2">
+	<!-- <link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/app-dark.css?v=1.2"> -->
     <link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.css">
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/sweetalert2/sweetalert2.min.css">
 	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/extensions/select2/select2.min.css"/>
-	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/custom.css?v=5">
+	<link rel="stylesheet" href="<?= base_url('apps/'); ?>assets/css/main/custom.css?v=4.5">
 	<script src="<?= base_url('apps/'); ?>assets/extensions/sweetalert2/sweetalert2.all.min.js"></script>
 	<script src="<?= base_url('apps/'); ?>assets/extensions/jquery/jquery.min.js"></script>
     <script src="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.js"></script>

@@ -12,6 +12,7 @@ class AppsController extends BaseController
     public function __construct()
     {
         $this->apps = new AppsModel();
+        $sess = session()->get();
     }
 
     public function dashboard()

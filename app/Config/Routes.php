@@ -26,17 +26,28 @@ $routes->get('/login', 'Auth\Auth::index');
 $routes->post('/authprocess', 'Auth\Auth::authprocess');
 $routes->get('/logout', 'Auth\Auth::logout');
 
-    $routes->get('/fetchdata', 'Apps\FetchData::fetchLayanan');
-
 $routes->group('', ['filter' => 'jwtauth'], function ($routes) {
 
-    // Route untuk Pages
+    // Route untuk Main Pages
     $routes->get('/home', 'Apps\AppsController::dashboard');
     $routes->get('/explore-task', 'Apps\AppsController::explore');
     $routes->get('/resume-task', 'Apps\AppsController::resume');
     $routes->get('/history-task', 'Apps\AppsController::history');
+    $routes->post('/fetch-layanan', 'Apps\FetchData::fetchLayanan');
+    $routes->post('/fetch-layanan-enrolled', 'Apps\FetchData::fetchLayananByNIP');
+    $routes->post('/store-enroll', 'Apps\FetchData::enrolltask');     
 
-    // Function general
+    // ----------------------------------------------------------------
+    // -------------------- ROUTING UNTUK LAYANAN ---------------------
+    // ----------------------------------------------------------------
+    
+    // Layanan Kenaikan Pangkat 
+    $routes->get('/upload-kp', 'Apps\Pages\KenaikanPangkat::upload');
+    $routes->post('/store/master-data', 'Apps\Pages\KenaikanPangkat::storeMasterData');
+    $routes->get('/entry-kp', 'Apps\Pages\KenaikanPangkat::entry');
+    $routes->get('/info-kp', 'Apps\Pages\KenaikanPangkat::info');
+
+    // Function General
     $routes->post('/change-password', 'Auth\Auth::changePassword');
     $routes->post('/update-profil', 'Apps\AjxController::updateProfile');
     $routes->post('/remove-data', 'Apps\AjxController::killData');
@@ -44,13 +55,8 @@ $routes->group('', ['filter' => 'jwtauth'], function ($routes) {
     $routes->post('/reset-data', 'Apps\AjxController::resetPassword');
     $routes->post('uploadAvatar', 'Apps\AjxController::uploadAvatar');
 
-    // fetch & enroll data
-    $routes->post('/fetch-layanan', 'Apps\FetchData::fetchLayanan');
-    $routes->post('/fetch-layanan-enrolled', 'Apps\FetchData::fetchLayananByNIP');
-    $routes->post('/store-enroll', 'Apps\FetchData::enrolltask'); 
 
     // $routes->get('/sclgn', 'Apps\AppsController::xxx');
-
     // $routes->get('/manage-user','Apps\AppsController::dataUsers');
     // $routes->get('/manage-pegawai', 'Apps\AppsController::dataPegawai');
     // $routes->get('/manage-movable', 'Apps\AppsController::dataMovable');

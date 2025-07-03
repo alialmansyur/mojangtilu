@@ -61,7 +61,7 @@ class FetchData extends BaseController
         }
 
         $data = array('nip' => $user,'layanan_id' => $enroll_id);
-        $this->apps->storeData($data, 'trx_enroll');
+        $this->apps->storeData($data, 'txn_enroll');
         return $this->response->setStatusCode(200)->setJSON([
             'status' => 'success',
             'message' => 'Task has been enrolled',

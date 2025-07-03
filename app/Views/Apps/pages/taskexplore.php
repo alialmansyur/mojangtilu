@@ -10,7 +10,7 @@
                     <p class="text-subtitle text-muted">Mojang Tilu - Kantor Regional III BKN</p>
                 </div>
                 <div class="col-md-6 text-end">
-                    <button class="btn btn-outline-primary me-2" data-bs-toggle="collapse"
+                    <button class="btn btn-primary me-2" data-bs-toggle="collapse"
                         data-bs-target="#collapseExample" aria-expanded="false"><i class="bi bi-filter"></i> Filter
                         Data</button>
                 </div>

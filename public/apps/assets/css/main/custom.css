@@ -558,7 +558,7 @@ body.modal-open::before {
 
 .card-hover-border:hover {
     border: 1px solid var(--bs-primary) !important;
-    transform: translateY(-2px);
+    transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
     /* box-shadow: 0 0 0 0.1rem rgba(67, 94, 190, 0.25) !important; */
 }
