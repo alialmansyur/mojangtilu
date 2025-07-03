@@ -14,11 +14,22 @@
         });
 
         $('#exportTable').DataTable({
-            responsive: true,
+            responsive: {
+                details: {
+                    type: 'column',
+                    target: 0
+                }
+            },
+            columnDefs: [{
+                className: 'control',
+                orderable: false,
+                targets: 0
+            }],
             dom: 'Bfrtip',
             buttons: [
-                'excel', 'pdf', 'print'
-            ]
+                'copy', 'excel', 'pdf', 'print'
+            ],
+            order: [1, 'asc']
         });
-        
+
     });

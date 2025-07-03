@@ -5,6 +5,7 @@ namespace App\Controllers\Apps\Pages;
 use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\Pages\KPModel;
+use App\Models\Apps\AppsModel;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
 class KenaikanPangkat extends BaseController
@@ -12,7 +13,8 @@ class KenaikanPangkat extends BaseController
 
     public function __construct()
     {
-        $this->apps = new KPModel();
+        $this->kpmodel = new KPModel();
+        $this->apps = new AppsModel();
         $sess = session()->get();
     }
 
@@ -20,7 +22,8 @@ class KenaikanPangkat extends BaseController
         $sess = session()->get();
         $data = array(
             'title'     => 'Upload KP',
-            'seslog'    => session()->get()
+            'seslog'    => session()->get(),
+            'datalist'  => $this->kpmodel->getDataUploaded()
         );
         return $this->renderView('Apps/pages/services/kenaikanpangkat/upload', $data);
     }
@@ -29,7 +32,8 @@ class KenaikanPangkat extends BaseController
         $sess = session()->get();
         $data = array(
             'title'     => 'Entry Data KP',
-            'seslog'    => session()->get()
+            'seslog'    => session()->get(),
+            'datalist'  => $this->kpmodel->getCurrentData($sess['username']),
         );
         return $this->renderView('Apps/pages/services/kenaikanpangkat/entry', $data);
     }
@@ -44,6 +48,7 @@ class KenaikanPangkat extends BaseController
     }
 
     public function storeMasterData(){
+        $sess = session()->get();
         $file = $this->request->getFile('file');
 
         if (!$file->isValid()) {
@@ -103,7 +108,9 @@ class KenaikanPangkat extends BaseController
                 'instansi_temp'  => $row[4],
                 'instansi_id'    => $instansiID,
                 'verified_by'    => $row[5],
-                'received_date'  => $receivedDate
+                'received_date'  => $receivedDate,
+                'status'         => 0,
+                'created_by'     => $sess['userid'],
             ];
         }
 

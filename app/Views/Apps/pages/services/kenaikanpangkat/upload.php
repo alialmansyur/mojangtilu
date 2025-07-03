@@ -1,51 +1,6 @@
 <?= $this->extend('Apps/layouts/main_layout'); ?>
 <?= $this->section('content'); ?>
 <link rel="stylesheet" href="<?= base_url('apps/assets/extensions/filepond/filepond.css'); ?>">
-
-<style>
-    .upload-card {
-        font-weight: 600;
-        font-size: 1.1rem;
-        text-align: center;
-        padding: 1em;
-    }
-
-    .upload-card .card-body {
-        padding: 1rem;
-        border: 2px dashed #aaa;
-        border-radius: 8px;
-        background-color: #ffffff;
-    }
-
-    .filepond--credits {
-        display: none !important;
-    }
-
-    .filepond--root {
-        margin-top: 1em;
-        background-color: transparent !important;
-        border: none;
-        box-shadow: none;
-        border-radius: 0.95em !important;
-    }
-
-    .filepond--panel-root {
-        background-color: transparent !important;
-        border: none;
-        border-radius: 0.95em !important;
-    }
-
-    .filepond--drop-label {
-        background: transparent !important;
-    }
-
-    .filepond--file,
-    .filepond--file-wrapper,
-    .filepond--panel {
-        border-radius: 0.95em !important;
-    }
-</style>
-
 <div class="page-content">
     <div class="container-sm px-4 text-start mx-auto">
         <div class="page-heading">
@@ -81,23 +36,37 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-                        <p>Data di temukan sebanyak : <strong></strong></p>
+                        <p>Data di temukan sebanyak : <strong><?= count($datalist); ?></strong></p>
                         <div class="table-responsive">
                             <table id="exportTable" class="table table-hover table-stripped table-bordered nowrap"
                                 style="width:100%">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
-                                        <th>IDP</th>
-                                        <th>Nama</th>
-                                        <th>Posisi</th>
-                                        <th>Tanggal</th>
-                                        <th>Status</th>
-                                        <th>Di buat</th>
                                         <th></th>
+                                        <th>#</th>
+                                        <th>NIP</th>
+                                        <th>Nama</th>
+                                        <th>Instansi</th>
+                                        <th>Prosedur</th>
+                                        <th>Jenis KP</th>
+                                        <th>Verifikator</th>
+                                        <th>Tanggal Diterima</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php foreach ($datalist as $key => $value): ?>
+                                        <tr>
+                                            <td></td>
+                                            <td><?= $key+1 ?></td>
+                                            <td><?= $value['nip'] ?></td>
+                                            <td><?= $value['nama'] ?></td>
+                                            <td><?= $value['instansi_temp'] ?></td>
+                                            <td><?= $value['jenis_prosedur'] ?></td>
+                                            <td><?= $value['jenis_kp'] ?></td>
+                                            <td><?= $value['verified_by'] ?></td>
+                                            <td><?= $value['received_date'] ?></td>
+                                        </tr>
+                                    <?php endforeach; ?>
                                 </tbody>
                             </table>
                         </div>
@@ -111,86 +80,5 @@
 <?= $this->endSection(); ?>
 <?= $this->section('scripts'); ?>
 <script src="<?= base_url('apps/assets/extensions/filepond/filepond.js'); ?>"></script>
-<script>
-    const inputElement = document.querySelector('.basic-filepond');
-    const pond = FilePond.create(inputElement);
-
-    FilePond.setOptions({
-        server: {
-            process: (fieldName, file, metadata, load, error, progress, abort) => {
-                swlwaitProsessing();
-                const formData = new FormData();
-                formData.append(fieldName, file, file.name);
-                const request = new XMLHttpRequest();
-                request.open('POST', '/store/master-data');
-                request.upload.onprogress = (e) => {
-                    progress(e.lengthComputable, e.loaded, e.total);
-                };
-                request.onload = function () {
-                    if (request.status >= 200 && request.status < 300) {
-                        const response = JSON.parse(request.responseText);
-                        load(request.responseText);
-                        swlSuccess();
-                    } else {
-                        swlErrorHandler("Opps Terjadi kesalahan ! " + request.responseText)
-                    }
-                };
-                request.send(formData);
-                return {
-                    abort: () => {
-                        request.abort();
-                        abort();
-                    }
-                };
-            }
-        },
-        labelIdle: 'Drag & Drop file Excel atau <span class="filepond--label-action">Browse</span>',
-        labelFileTypeNotAllowed: 'File hanya boleh Excel (.xls, .xlsx)',
-        acceptedFileTypes: [
-            'application/vnd.ms-excel',
-            'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        ],
-        fileValidateTypeLabelExpectedTypes: 'Hanya file Excel (.xls, .xlsx) yang diperbolehkan',
-        credits: false,
-        fileValidateTypeDetectType: (source, type) => new Promise((resolve) => resolve(type))
-    });
-
-    function swlErrorHandler(msg) {
-        Swal.fire({
-            toast: true,
-            position: 'top',
-            icon: 'error',
-            title: msg,
-            timer: 3000,
-            showConfirmButton: false
-        });
-    }
-
-    function swlSuccess() {
-        Swal.fire({
-            toast: true,
-            position: 'top',
-            icon: 'success',
-            title: 'Data berhasil di upload, cek pada tabel pada halaman ini',
-            timer: 3000,
-            showConfirmButton: false
-        }).then(() => {
-            window.location.reload();
-        });
-    }
-
-    function swlwaitProsessing() {
-        Swal.fire({
-            toast: true,
-            position: 'top',
-            icon: 'info',
-            title: 'Permintaan sedang di proses ...',
-            showConfirmButton: false,
-            timerProgressBar: true,
-            didOpen: () => {
-                Swal.showLoading();
-            }
-        });
-    }
-</script>
+<script src="<?= base_url('apps/assets/js/custom/pages/services/kenaikanpangkat/uploadPage.js?v=2.2.5'); ?>"></script>
 <?= $this->endSection(); ?>

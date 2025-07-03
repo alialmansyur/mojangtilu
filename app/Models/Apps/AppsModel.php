@@ -92,5 +92,4 @@ class AppsModel extends Model
         return $data ? $data->id : null;
     }
 
-
 }

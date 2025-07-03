@@ -50,16 +50,21 @@ function pageLoaded(data) {
     }
 
     $('.card-daily-task').on('click', function () {
-        var keydata = $(this).attr('data-key');
-        var aliases = $(this).attr('data-alias');
-        var code    = $(this).attr('data-code');
-
-        var urlupload   = '/upload-' + code;
-        var urlentry    = '/entry-' + code;
-        var urlinfo     = '/info-' + code;
+        var code = $(this).attr('data-code');
+        var urlupload = '/upload-' + code;
+        var urlentry = '/entry-' + code;
+        var urlinfo = '/info-' + code;
 
         $('.card-upload').on('click', function () {
             window.location.href = urlupload;
+        })
+
+        $('.card-entry').on('click', function () {
+            window.location.href = urlentry;
+        })
+
+        $('.card-info').on('click', function () {
+            window.location.href = urlinfo;
         })
 
         $('#quickActionModal').modal('show');
@@ -74,6 +79,19 @@ function swlErrorHandler(msg) {
         title: msg,
         timer: 3000,
         showConfirmButton: false
+    });
+}
+
+function swlSuccess() {
+    Swal.fire({
+        toast: true,
+        position: 'top',
+        icon: 'success',
+        title: 'Data berhasil di simpan, halaman akan di load ulang',
+        timer: 3000,
+        showConfirmButton: false
+    }).then(() => {
+        window.location.reload();
     });
 }
 

@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 
 class KPModel extends Model
 {
-    protected $table            = 'kps';
+    protected $table            = 'txn_layanan_kp';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
@@ -43,4 +43,18 @@ class KPModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function getDataUploaded(){
+        $builder = $this->db->table('txn_layanan_kp');
+        $builder->where('DATE(created_date) = CURDATE()');
+        return $builder->get()->getResultArray();
+    }
+
+    public function getCurrentData($user){
+        $builder = $this->db->table('txn_layanan_kp');
+        $builder->where('verified_by', $user);
+        $builder->orderBy('nama', 'ASC');
+        return $builder->get()->getResultArray();
+    }
+
 }

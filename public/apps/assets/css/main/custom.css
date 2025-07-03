@@ -51,7 +51,7 @@ td {
 .table,
 tr,
 td {
-    padding: 4px !important;
+    padding: 3px !important;
 }
 
 .select2-container .select2-selection--single {
@@ -299,7 +299,7 @@ body.modal-open::before {
 }
 
 .table {
-    border-radius: 0.75rem;
+    /* border-radius: 0.75rem; */
     overflow: hidden;
     margin-bottom: 0;
 }
@@ -307,7 +307,7 @@ body.modal-open::before {
 .table th,
 .table td {
     vertical-align: middle !important;
-    padding: 12px 16px;
+    padding: 10px 12px;
     border: none;
 }
 
@@ -341,16 +341,17 @@ body.modal-open::before {
 .dataTables_wrapper .dataTables_paginate .paginate_button {
     padding: 6px 12px;
     margin: 2px;
-    border-radius: 6px;
+    border-radius: 0.95em !important;
     border: none !important;
     background-color: #e9ecef;
-    color: #333 !important;
+    color: #364e9b !important;
     transition: 0.3s ease;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
     background-color: #dee2e6;
     color: #fff !important;
+    border-radius: 10px;
 }
 
 /* Responsive Scroll Bar */
@@ -541,12 +542,16 @@ body.modal-open::before {
       transparent 15px);
 } */
 
+.card-action{
+    cursor: pointer !important;
+}
+
 .bg-pattern {
-  background-image: repeating-radial-gradient(circle at 0 0,
-      rgba(0, 0, 0, 0.01),
-      rgba(0, 0, 0, 0.01) 2px,
-      transparent 5px,
-      transparent 10px);
+    background-image: repeating-radial-gradient(circle at 0 0,
+            rgba(0, 0, 0, 0.01),
+            rgba(0, 0, 0, 0.01) 2px,
+            transparent 5px,
+            transparent 10px);
 }
 
 .card-hover-border {
@@ -561,4 +566,61 @@ body.modal-open::before {
     transform: translateY(-1px);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
     /* box-shadow: 0 0 0 0.1rem rgba(67, 94, 190, 0.25) !important; */
+}
+
+table.dataTable tbody td.dtr-control:before,
+table.dataTable tbody td.control:before {
+    content: '+' !important;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+table.dataTable tbody tr.parent td.dtr-control:before,
+table.dataTable tbody tr.parent td.control:before {
+    content: '-' !important;
+}
+
+.upload-card {
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1em;
+}
+
+.upload-card .card-body {
+    padding: 1rem;
+    border: 2px dashed #aaa;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.filepond--credits {
+    display: none !important;
+}
+
+.filepond--root {
+    margin-top: 1em;
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+    border-radius: 0.95em !important;
+}
+
+.filepond--panel-root {
+    background-color: transparent !important;
+    border: none;
+    border-radius: 0.95em !important;
+}
+
+.filepond--drop-label {
+    background: transparent !important;
+}
+
+.filepond--file,
+.filepond--file-wrapper,
+.filepond--panel {
+    border-radius: 0.95em !important;
 }

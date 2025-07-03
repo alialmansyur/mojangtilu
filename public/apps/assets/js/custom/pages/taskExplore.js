@@ -133,6 +133,19 @@ function swlErrorHandler(msg) {
     });
 }
 
+function swlSuccess() {
+    Swal.fire({
+        toast: true,
+        position: 'top',
+        icon: 'success',
+        title: 'Data berhasil di simpan, halaman akan di load ulang',
+        timer: 3000,
+        showConfirmButton: false
+    }).then(() => {
+        window.location.reload();
+    });
+}
+
 function swlwaitProsessing() {
     Swal.fire({
         toast: true,
