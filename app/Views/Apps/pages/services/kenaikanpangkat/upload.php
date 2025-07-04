@@ -34,7 +34,7 @@
                 </div>
             </div>
             <div class="col-md-12">
-                <div class="card">
+                <div class="card border border-primary">
                     <div class="card-body">
                         <p>Data di temukan sebanyak : <strong><?= count($datalist); ?></strong></p>
                         <div class="table-responsive">

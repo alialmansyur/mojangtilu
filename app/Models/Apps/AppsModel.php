@@ -8,31 +8,31 @@ class AppsModel extends Model
 {
     protected $table = 'data_pegwai';
 
-    public function __construct()
-    {
+    public function __construct(){
         parent::__construct();
     }
 
-    public function storeData($data, $table)
-    {
+    public function storeData($data, $table){
         $this->db->table($table)->insert($data);
         return $this->db->insertID();
     }
 
-    public function updateData($data, $id, $table)
-    {
+    public function updateData($data, $id, $table){
         return $this->db->table($table)->where('id', $id)->update($data);
     }
 
-    public function removeData($id, $table)
-    {
+    public function removeData($id, $table){
         return $this->db->table($table)->where('id', $id)->delete();
     }
 
-    public function insertBatchData($data,$table)
-    {
+    public function insertBatchData($data,$table){
         $this->table = $table;
         return $this->db->table($this->table)->insertBatch($data);
+    }
+
+    public function updateBatchData($data, $table, $primaryKey){
+        $this->table = $table;
+        return $this->db->table($this->table)->updateBatch($data, $primaryKey);
     }
 
     public function getAvatar($user){
@@ -42,8 +42,7 @@ class AppsModel extends Model
         return $data->userimage;
     }
 
-    public function getLayananData($param, $keyword = '', $unit = '0')
-    {
+    public function getLayananData($param, $keyword = '', $unit = '0'){
         $builder = $this->db->table('data_layanan')->orderBy('alias', 'ASC');
 
         if ($unit !== '0') {

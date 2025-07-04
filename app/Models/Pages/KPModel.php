@@ -46,7 +46,7 @@ class KPModel extends Model
 
     public function getDataUploaded(){
         $builder = $this->db->table('txn_layanan_kp');
-        $builder->where('DATE(created_date) = CURDATE()');
+        $builder->where('DATE(created_at) = CURDATE()');
         return $builder->get()->getResultArray();
     }
 
@@ -56,5 +56,45 @@ class KPModel extends Model
         $builder->orderBy('nama', 'ASC');
         return $builder->get()->getResultArray();
     }
+
+    public function getAvaData() {
+        return $this->db->query("
+            SELECT 
+            COUNT(*) AS total, DATE(created_at) taskdate
+            FROM txn_layanan_kp 
+            WHERE verified_by IS NULL AND DATE(created_at) = CURDATE()
+        ")->getRow();
+    }
+
+    public function getEnrolledTask(){
+        return $this->db->query("
+            SELECT 
+            'Kenaikan Pangkat' layanan,
+            a.nip, b.nama, a.target
+            FROM txn_enroll a
+            JOIN data_member b ON b.nip = a.nip
+            WHERE a.layanan_id = 8
+        ")->getResultArray();
+    }
+
+    public function getAllocatedTask($nip){
+        $builder = $this->db->table('txn_layanan_kp_target');
+        $builder->where('nip', $nip);
+        $builder->where('task_date', date('Y-m-d'));
+        $data = $builder->get()->getRow();
+
+        if (!$data) return [];
+        if ((int)$data->allocated < 1) return [];
+
+        return $this->db->table('txn_layanan_kp')
+            ->select('id, nip')
+            ->where('verified_by', null)
+            ->where('DATE(created_at)', date('Y-m-d'))
+            ->orderBy('RAND()')
+            ->limit((int)$data->allocated)
+            ->get()
+            ->getResultArray();
+    }
+
 
 }

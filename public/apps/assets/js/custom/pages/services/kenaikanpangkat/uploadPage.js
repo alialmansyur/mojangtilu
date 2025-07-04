@@ -57,7 +57,7 @@ function swlSuccess() {
         toast: true,
         position: 'top',
         icon: 'success',
-        title: 'Data berhasil di simpan, halaman akan di load ulang',
+        title: 'Data berhasil di simpan',
         timer: 3000,
         showConfirmButton: false
     }).then(() => {

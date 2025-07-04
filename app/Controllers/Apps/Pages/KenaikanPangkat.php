@@ -125,4 +125,103 @@ class KenaikanPangkat extends BaseController
             'datalist'  => $data
         ]);
     }
+
+    public function allocateTask(){
+        $taskDate = $this->kpmodel->getAvaData()->taskdate;
+        $totalAvailable = (int) $this->kpmodel->getAvaData()->total;
+        if ($totalAvailable < 1) {
+            return $this->response->setJSON([
+                'status'  => false,
+                'message' => 'No available data to allocate.'
+            ]);
+        }
+
+        $memberEnrolled = $this->kpmodel->getEnrolledTask();
+        if (!$memberEnrolled) {
+            return $this->response->setJSON([
+                'status'  => false,
+                'message' => 'No participant data found.'
+            ]);
+        }
+
+        $processed = [];
+        $totalFloor = 0;
+        foreach ($memberEnrolled as $p) {
+            $ideal = ($p['target'] / 100) * $totalAvailable;
+            $floor = floor($ideal);
+            $desimal = $ideal - $floor;
+            $processed[] = [
+                'task_date' => $taskDate,
+                'layanan'   => $p['layanan'],
+                'nip'       => $p['nip'],
+                'nama'      => $p['nama'],
+                'target'    => $p['target'],
+                'available' => $totalAvailable,
+                'ideal'     => round($ideal, 4),
+                'floor'     => $floor,
+                'desimal'   => $desimal
+            ];
+            $totalFloor += $floor;
+        }
+
+        $sisa = $totalAvailable - $totalFloor;
+        usort($processed, function ($a, $b) {
+            return $b['desimal'] <=> $a['desimal'];
+        });
+
+        for ($i = 0; $i < $sisa; $i++) {
+            $processed[$i]['floor'] += 1;
+        }
+
+        $allocation = [];
+        foreach ($processed as $p) {
+            $allocation[] = [
+                'task_date' => $p['task_date'],
+                'layanan_id'=> 8,                
+                'total'     => $p['available'],                
+                'nip'       => $p['nip'],
+                'target'    => $p['target'],
+                'allocated' => $p['floor']
+            ];
+        }
+
+        if (!empty($allocation)) {
+            $this->apps->insertBatchData($allocation, 'txn_layanan_kp_target');
+        }
+
+        return $this->response->setJSON([
+            'status' => true,
+            'message'   => 'Task has been allocated', 
+            'total_available' => $totalAvailable,
+            'allocation' => $allocation
+        ]);
+    }
+
+    public function pullTask(){
+        $sess = session()->get();
+        $check_allocated = $this->kpmodel->getAllocatedTask($sess['username']);
+        if (!$check_allocated) {
+            return $this->response->setJSON([
+                'status'  => false,
+                'message' => 'No allocated task data found.'
+            ]);
+        }
+
+        // $limit_qouta -> disini tambahin validate untuk limitasi qouta dari allocated yang telah di tetapkan  
+
+        $data = [];
+        foreach ($check_allocated as $item) {
+            $data[] = [
+                'id' => $item['id'],
+                'verified_by' => $sess['username']
+            ];
+        }
+
+        $this->apps->updateBatchData($data, 'txn_layanan_kp', 'id');
+        return $this->response->setJSON([
+            'status' => true,
+            'message'   => 'Task has been pulled', 
+        ]);
+
+    }
 }

@@ -43,9 +43,11 @@ $routes->group('', ['filter' => 'jwtauth'], function ($routes) {
     
     // Layanan Kenaikan Pangkat 
     $routes->get('/upload-kp', 'Apps\Pages\KenaikanPangkat::upload');
-    $routes->post('/store/master-data', 'Apps\Pages\KenaikanPangkat::storeMasterData');
     $routes->get('/entry-kp', 'Apps\Pages\KenaikanPangkat::entry');
-    $routes->get('/info-kp', 'Apps\Pages\KenaikanPangkat::info');
+    $routes->get('/info-kp', 'Apps\Pages\KenaikanPangkat::info'); 
+    $routes->post('/store/master-data', 'Apps\Pages\KenaikanPangkat::storeMasterData');
+    $routes->get('/allocation/generate-task', 'Apps\Pages\KenaikanPangkat::allocateTask');
+    $routes->get('/allocation/pull-task', 'Apps\Pages\KenaikanPangkat::pullTask');
 
     // Function General
     $routes->post('/change-password', 'Auth\Auth::changePassword');

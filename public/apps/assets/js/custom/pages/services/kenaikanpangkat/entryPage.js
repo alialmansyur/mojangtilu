@@ -1,67 +1,150 @@
-var optionsKinerja = {
-    series: [{
-        name: "total",
-        data: [310, 800, 600, 430, 540, 340, 605, 805, 430, 540, 340, 605],
-    }, ],
-    chart: {
-        height: 100,
-        type: "area",
-        toolbar: {
+$(document).ready(function () {
+
+    $('.btn-pull-data').on('click', function () {
+        swlwaitProsessing()
+        $.ajax({
+            url: 'allocation/pull-task',
+            method: 'GET',
+            dataType: 'json',
+            success: function (response) {
+                Swal.close();
+                if (response.status) {
+                    swlSuccess()
+                } else {
+                    swlErrorHandler(response.message || 'Failed to pull data!')
+                }
+            }
+        });
+    });
+
+    var optionsKinerja = {
+        series: [{
+            name: "total",
+            data: [310, 800, 600, 430, 540, 340, 605, 805, 430, 540, 340, 605],
+        }, ],
+        chart: {
+            height: 100,
+            type: "area",
+            toolbar: {
+                show: false,
+            },
+        },
+        colors: ["#435ebe"],
+        stroke: {
+            width: 2,
+        },
+        grid: {
             show: false,
         },
-    },
-    colors: ["#435ebe"],
-    stroke: {
-        width: 2,
-    },
-    grid: {
+        dataLabels: {
+            enabled: false,
+        },
+        xaxis: {
+            type: "datetime",
+            categories: [
+                "2018-09-19T00:00:00.000Z",
+                "2018-09-19T01:30:00.000Z",
+                "2018-09-19T02:30:00.000Z",
+                "2018-09-19T03:30:00.000Z",
+                "2018-09-19T04:30:00.000Z",
+                "2018-09-19T05:30:00.000Z",
+                "2018-09-19T06:30:00.000Z",
+                "2018-09-19T07:30:00.000Z",
+                "2018-09-19T08:30:00.000Z",
+                "2018-09-19T09:30:00.000Z",
+                "2018-09-19T10:30:00.000Z",
+                "2018-09-19T11:30:00.000Z",
+            ],
+            axisBorder: {
+                show: false,
+            },
+            axisTicks: {
+                show: false,
+            },
+            labels: {
+                show: false,
+            },
+        },
         show: false,
-    },
-    dataLabels: {
-        enabled: false,
-    },
-    xaxis: {
-        type: "datetime",
-        categories: [
-            "2018-09-19T00:00:00.000Z",
-            "2018-09-19T01:30:00.000Z",
-            "2018-09-19T02:30:00.000Z",
-            "2018-09-19T03:30:00.000Z",
-            "2018-09-19T04:30:00.000Z",
-            "2018-09-19T05:30:00.000Z",
-            "2018-09-19T06:30:00.000Z",
-            "2018-09-19T07:30:00.000Z",
-            "2018-09-19T08:30:00.000Z",
-            "2018-09-19T09:30:00.000Z",
-            "2018-09-19T10:30:00.000Z",
-            "2018-09-19T11:30:00.000Z",
+        yaxis: {
+            labels: {
+                show: false,
+            },
+        },
+        tooltip: {
+            x: {
+                format: "dd/MM/yy HH:mm",
+            },
+        },
+    }
+
+    var chartkinerja = new ApexCharts(
+        document.querySelector("#chart-europe"),
+        optionsKinerja
+    )
+
+    chartkinerja.render()
+    $('#usulanTable').DataTable({
+        responsive: {
+            details: {
+                type: 'column',
+                target: 0
+            }
+        },
+        columnDefs: [{
+            className: 'control',
+            orderable: false,
+            targets: 0
+        }],
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'excel', 'pdf', 'print'
         ],
-        axisBorder: {
-            show: false,
-        },
-        axisTicks: {
-            show: false,
-        },
-        labels: {
-            show: false,
-        },
-    },
-    show: false,
-    yaxis: {
-        labels: {
-            show: false,
-        },
-    },
-    tooltip: {
-        x: {
-            format: "dd/MM/yy HH:mm",
-        },
-    },
-}
+        order: [1, 'asc']
+    });
 
-var chartkinerja = new ApexCharts(
-    document.querySelector("#chart-europe"),
-    optionsKinerja
-)
+    function swlErrorHandler(msg) {
+        Swal.fire({
+            toast: true,
+            position: 'top',
+            icon: 'error',
+            title: msg,
+            timer: 3000,
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            showConfirmButton: false,            
+        });
+    }
 
-chartkinerja.render()
+    function swlSuccess() {
+        Swal.fire({
+            toast: true,
+            position: 'top',
+            icon: 'success',
+            title: 'Data berhasil di simpan',
+            timer: 3000,
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            showConfirmButton: false,
+        }).then(() => {
+            window.location.reload();
+        });
+    }
+
+    function swlwaitProsessing() {
+        Swal.fire({
+            toast: true,
+            position: 'top',
+            icon: 'info',
+            title: 'Permintaan sedang di proses ...',
+            allowOutsideClick: false,
+            allowEscapeKey: false,
+            showConfirmButton: false,
+            timerProgressBar: true,
+            didOpen: () => {
+                Swal.showLoading();
+            }
+        });
+    }
+
+});
