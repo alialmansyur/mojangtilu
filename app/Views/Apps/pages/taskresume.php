@@ -19,5 +19,4 @@
         <section class="row"></section>
     </div>
 </div>
-</div>
 <?= $this->endSection(); ?>

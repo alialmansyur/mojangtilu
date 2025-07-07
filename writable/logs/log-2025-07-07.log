@@ -1,0 +1,1318 @@
+DEBUG - 2025-07-07 06:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:18:11 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Controllers/Auth/Auth.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-07 06:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:18:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:18:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:18:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:18:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:23:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:23:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:24:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:24:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:25:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:25:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:26:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:26:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:27:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:27:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:28:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:28:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:29:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:29:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:30:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:30:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:30:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:30:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:30:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:32:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:32:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 06:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 06:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 06:33:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:46:48 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Controllers/Auth/Auth.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-07 07:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:46:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:47:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:49:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-07 07:49:50 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'mojang', 3306, '', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#4 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#3 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-07-07 07:49:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+[Method: GET, Route: home]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = ? AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', [...])
+ 3 APPPATH/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:50:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-07 07:50:42 --> Error connecting to the database: mysqli_sql_exception: Host 'LAPTOP-0M1GLJRO.mshome.net' is not allowed to connect to this MariaDB server in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('172.29.176.1', 'root', Object(SensitiveParameterValue), 'mojang', 3306, '', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#4 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host 'LAPTOP-0M1GLJRO.mshome.net' is not allowed to connect to this MariaDB server in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#3 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-07-07 07:50:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host 'LAPTOP-0M1GLJRO.mshome.net' is not allowed to connect to this MariaDB server
+[Method: GET, Route: home]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = ? AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', [...])
+ 3 APPPATH/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:52:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-07 07:52:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'LAPTOP-0M1GLJRO.mshome.net' (using password: NO) in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:201
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(201): mysqli->real_connect('172.29.176.1', 'root', Object(SensitiveParameterValue), 'mojang', 3306, '', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#4 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'LAPTOP-0M1GLJRO.mshome.net' (using password: NO) in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:246
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#3 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#4 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2025-07-07 07:52:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'LAPTOP-0M1GLJRO.mshome.net' (using password: NO)
+[Method: GET, Route: home]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = ? AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', [...])
+ 3 APPPATH/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+ 4 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 5 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:54:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:54:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:54:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:54:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 07:54:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:55:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 07:55:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:56:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:56:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:57:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 07:57:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 07:58:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 07:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 07:59:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 07:59:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH/Controllers/Apps/Pages/KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 08:00:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 08:00:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 08:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 08:00:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 08:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:49:05 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Controllers/Auth/Auth.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-07 09:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:49:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:49:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:49:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:49:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:49:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:50:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:50:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:50:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:50:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:50:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:51:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 09:53:09 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Auth\Auth.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-07 09:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 09:53:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:53:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:54:35 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Auth\Auth.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-07 09:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:54:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:54:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 09:54:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 09:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:27:32 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH\Controllers\Auth\Auth.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-07 10:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:27:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:27:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:27:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:27:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:27:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:27:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:27:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:27:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:27:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:28:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:28:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:28:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:28:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:29:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:29:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:29:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:29:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:29:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:29:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:29:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:30:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:30:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:30:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:30:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:30:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:30:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:30:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 10:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 10:31:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 10:31:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:11:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH\Controllers\Apps\AppsController.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:11:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH\Controllers\Apps\FetchData.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:11:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:11:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:14:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:14:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:15:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:15:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:15:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:15:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:15:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:15:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:15:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:15:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:15:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:15:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:16:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:16:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:16:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:16:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:16:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:16:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:16:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:17:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:17:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:17:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:17:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-07 11:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-07 11:17:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$kpmodel is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+WARNING - 2025-07-07 11:17:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\Pages\KenaikanPangkat::$apps is deprecated in APPPATH\Controllers\Apps\Pages\KenaikanPangkat.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Apps\Pages\KenaikanPangkat->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

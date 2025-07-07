@@ -118,6 +118,8 @@ class KenaikanPangkat extends BaseController
             $this->apps->insertBatchData($dataBatch, 'txn_layanan_kp');
         }
 
+        $this->allocateTask();
+
         return $this->response->setJSON([
             'status' => 'success',
             'filename' => $newName,
@@ -195,7 +197,7 @@ class KenaikanPangkat extends BaseController
             'total_available' => $totalAvailable,
             'allocation' => $allocation
         ]);
-    }
+    } 
 
     public function pullTask(){
         $sess = session()->get();

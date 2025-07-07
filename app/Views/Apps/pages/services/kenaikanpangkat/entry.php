@@ -84,7 +84,8 @@
                                 </ul>
                             </div>
                             <div class="col-md-3 text-end">
-                                <button class="btn btn-primary btn-pull-data"><i class="bi bi-cloud-download me-2"></i>Ambil
+                                <button class="btn btn-primary btn-pull-data"><i
+                                        class="bi bi-cloud-download me-2"></i>Ambil
                                     Usulan</button>
                             </div>
                         </div>
@@ -118,7 +119,7 @@
                                         <td><?= $value['jenis_kp'] ?></td>
                                         <td><?= $value['verified_by'] ?></td>
                                         <td><?= $value['received_date'] ?></td>
-                                        <td><button class="btn btn-sm btn-primary">Verifikasi</button></td>
+                                        <td><button class="btn btn-sm btn-primary btn-verify" data-key="<?= $value['id'] ?>" data-nip="<?= $value['nip'] ?>">Verifikasi</button></td>
                                     </tr>
                                     <?php endforeach; ?>
                                 </tbody>
@@ -129,10 +130,52 @@
             </div>
         </section>
     </div>
-</div>
+    <div class="modal fade modal-borderless" id="pertekModal" tabindex="-1" aria-labelledby="pertekModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pertekModalLabel">Form Pertek</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="pertekForm" class="row g-3">
+                        <div class="col-6 mb-3">
+                            <label for="noPertek" class="form-label">NIP</label>
+                            <input type="text" class="form-control" id="nip" name="nip"
+                                placeholder="Load Data NIP" readonly>
+                        </div>
+                        <div class="col-6 mb-3">
+                            <label for="noPertek" class="form-label">No Pertek</label>
+                            <input type="text" class="form-control" id="noPertek" name="noPertek"
+                                placeholder="Masukkan No Pertek">
+                        </div>
+                        <div class="mb-3">
+                            <label for="status" class="form-label">Status</label>
+                            <select class="form-select" id="status" name="status">
+                                <option value="" selected disabled>Pilih Status</option>
+                                <option value="BTS">BTS</option>
+                                <option value="TMS">TMS</option>
+                                <option value="Disetujui">Disetujui</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="reason" class="form-label">Reason</label>
+                            <textarea class="form-control" id="reason" name="reason" rows="3" placeholder="Alasan"
+                                disabled></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light-primary" data-bs-dismiss="modal">Batalkan</button>
+                    <button type="submit" form="pertekForm" class="btn btn-primary">Simpan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
 <?= $this->endSection(); ?>
 <?= $this->section('scripts'); ?>
 <script src="<?= base_url('apps/assets/extensions/apexcharts/apexcharts.min.js'); ?>"></script>
-<script src="<?= base_url('apps/assets/js/custom/pages/services/kenaikanpangkat/entryPage.js?v=2.9'); ?>"></script>
+<script src="<?= base_url('apps/assets/js/custom/pages/services/kenaikanpangkat/entryPage.js?v=3.0'); ?>"></script>
 <?= $this->endSection(); ?>

@@ -17,6 +17,36 @@ $(document).ready(function () {
         });
     });
 
+    $('#usulanTable tbody').on('click', 'tr td .btn-verify', function () {
+        // var key = $(this).attr('data-key');
+        var key = $(this).attr('data-key');
+        var nip = $(this).attr('data-nip');
+        $('#nip').val(nip)
+        $('#pertekModal').modal('show');
+    });
+
+    const $statusSelect = $('#status');
+    const $reasonTextarea = $('#reason');
+    $statusSelect.on('change', function () {
+        const selected = $(this).val();
+        if (selected === 'BTS' || selected === 'TMS') {
+            $reasonTextarea.prop('disabled', false);
+        } else {
+            $reasonTextarea.val('');
+            $reasonTextarea.prop('disabled', true);
+        }
+    });
+
+    $('#pertekForm').on('submit', function (e) {
+        e.preventDefault();
+        const data = {
+            noPertek: $('#noPertek').val(),
+            status: $('#status').val(),
+            reason: $('#reason').val()
+        };
+        console.log('Form data:', data);
+    });
+
     var optionsKinerja = {
         series: [{
             name: "total",
@@ -112,7 +142,7 @@ $(document).ready(function () {
             timer: 3000,
             allowOutsideClick: false,
             allowEscapeKey: false,
-            showConfirmButton: false,            
+            showConfirmButton: false,
         });
     }
 

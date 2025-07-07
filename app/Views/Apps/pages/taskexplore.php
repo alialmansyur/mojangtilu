@@ -72,7 +72,6 @@
         </div>
     </div>
 </div>
-</div>
 <?= $this->endSection(); ?>
 <?= $this->section('scripts'); ?>
 <script src="<?= base_url('apps/assets/js/custom/pages/taskExplore.js?v=2.2.5'); ?>"></script>

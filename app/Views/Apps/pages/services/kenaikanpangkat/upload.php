@@ -36,7 +36,11 @@
             <div class="col-md-12">
                 <div class="card border border-primary">
                     <div class="card-body">
-                        <p>Data di temukan sebanyak : <strong><?= count($datalist); ?></strong></p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>Data di temukan sebanyak : <strong><?= count($datalist); ?></strong></p>
+                            </div>
+                        </div>
                         <div class="table-responsive">
                             <table id="exportTable" class="table table-hover table-stripped table-bordered nowrap"
                                 style="width:100%">
@@ -75,7 +79,6 @@
             </div>
         </section>
     </div>
-</div>
 </div>
 <?= $this->endSection(); ?>
 <?= $this->section('scripts'); ?>
