@@ -1,0 +1,114 @@
+WARNING - 2025-07-08 08:51:59 --> [DEPRECATED] Constant FILTER_SANITIZE_STRING is deprecated in APPPATH/Controllers/Auth/Auth.php on line 40.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Auth\Auth->authprocess()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-08 08:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-07-08 08:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-08 08:52:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-07-08 08:52:05 --> mysqli_sql_exception: Server shutdown in progress in /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:327
+Stack trace:
+#0 /var/www/html/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(327): mysqli->query('SELECT b.*, a.i...', 0)
+#1 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT b.*, a.i...')
+#2 /var/www/html/vendor/codeigniter4/framework/system/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT b.*, a.i...')
+#3 /var/www/html/app/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.i...', Array)
+#4 /var/www/html/app/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+#5 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#6 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+#7 /var/www/html/vendor/codeigniter4/framework/system/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/vendor/codeigniter4/framework/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /var/www/html/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-07-08 08:52:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Server shutdown in progress
+[Method: GET, Route: home]
+in SYSTEMPATH/Database/BaseConnection.php on line 692.
+ 1 APPPATH/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = ? AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', [...])
+ 2 APPPATH/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+ 3 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-08 08:52:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Server shutdown in progress
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 332.
+ 1 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = \'11\' AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = \'11\' AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC')
+ 3 APPPATH/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = ? AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', [...])
+ 4 APPPATH/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+ 5 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 6 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-08 08:52:06 --> [Caused by] mysqli_sql_exception: Server shutdown in progress
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 327.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(327): mysqli->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = \'11\' AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = \'11\' AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = \'11\' AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC')
+ 4 APPPATH/Models/Apps/MenuModel.php(23): CodeIgniter\Database\BaseConnection->query('SELECT b.*, a.is_create, is_read, a.is_update, a.is_delete
+                FROM auth_users_permissions a
+                LEFT JOIN auth_permissions b ON b.id = a.permission_id
+                WHERE a.user_id = ? AND parent_id IS NULL AND is_show <> 0
+                ORDER BY b.is_order ASC', [...])
+ 5 APPPATH/Controllers/BaseController.php(57): App\Models\Apps\MenuModel->getMenusPermissions('11')
+ 6 SYSTEMPATH/CodeIgniter.php(904): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 7 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 8 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-08 08:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-08 08:53:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\AppsController::$apps is deprecated in APPPATH/Controllers/Apps/AppsController.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\AppsController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-07-08 08:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-07-08 08:53:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Apps\FetchData::$apps is deprecated in APPPATH/Controllers/Apps/FetchData.php on line 21.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Apps\FetchData->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
