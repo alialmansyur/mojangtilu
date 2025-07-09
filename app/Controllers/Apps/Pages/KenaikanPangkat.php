@@ -118,7 +118,7 @@ class KenaikanPangkat extends BaseController
             $this->apps->insertBatchData($dataBatch, 'txn_layanan_kp');
         }
 
-        $this->allocateTask();
+        // $this->allocateTask();
 
         return $this->response->setJSON([
             'status' => 'success',
@@ -171,9 +171,9 @@ class KenaikanPangkat extends BaseController
             return $b['desimal'] <=> $a['desimal'];
         });
 
-        for ($i = 0; $i < $sisa; $i++) {
-            $processed[$i]['floor'] += 1;
-        }
+        // for ($i = 0; $i < $sisa; $i++) {
+        //     $processed[$i]['floor'] += 1;
+        // }
 
         $allocation = [];
         foreach ($processed as $p) {

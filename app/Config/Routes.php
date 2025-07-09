@@ -49,13 +49,22 @@ $routes->group('', ['filter' => 'jwtauth'], function ($routes) {
     $routes->get('/allocation/generate-task', 'Apps\Pages\KenaikanPangkat::allocateTask');
     $routes->get('/allocation/pull-task', 'Apps\Pages\KenaikanPangkat::pullTask');
 
+    // Layanan Statistik 
+    $routes->get('/upload-statistik', 'Apps\Pages\StatistikData::upload');
+    $routes->post('/upload-statistik', 'Apps\Pages\StatistikData::upload');
+    $routes->get('/entry-statistik', 'Apps\Pages\StatistikData::entry');
+    $routes->get('/info-statistik', 'Apps\Pages\StatistikData::info'); 
+    $routes->post('/store/import-excel', 'Apps\Pages\StatistikData::storeData');
+    $routes->post('/store/pull-datalist', 'Apps\Pages\StatistikData::getData');
+    $routes->post('/store/remove-data', 'Apps\Pages\StatistikData::removeData');
+
     // Function General
     $routes->post('/change-password', 'Auth\Auth::changePassword');
     $routes->post('/update-profil', 'Apps\AjxController::updateProfile');
     $routes->post('/remove-data', 'Apps\AjxController::killData');
     $routes->post('/status-data', 'Apps\AjxController::statusData');
     $routes->post('/reset-data', 'Apps\AjxController::resetPassword');
-    $routes->post('uploadAvatar', 'Apps\AjxController::uploadAvatar');
+    $routes->post('/uploadAvatar', 'Apps\AjxController::uploadAvatar');
 
 
     // $routes->get('/sclgn', 'Apps\AppsController::xxx');

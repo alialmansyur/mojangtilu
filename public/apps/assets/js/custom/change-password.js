@@ -15,7 +15,7 @@ $(document).ready(function () {
         });
 
         let formData = new FormData(this);
-        fetch('/change-password', {
+        fetch( AppConfig.initGlobal + 'change-password', {
                 method: 'POST',
                 body: formData
             })

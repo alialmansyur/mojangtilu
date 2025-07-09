@@ -8,7 +8,7 @@ FilePond.setOptions({
             const formData = new FormData();
             formData.append(fieldName, file, file.name);
             const request = new XMLHttpRequest();
-            request.open('POST', '/store/master-data');
+            request.open('POST',  AppConfig.initGlobal + 'store/master-data');
             request.upload.onprogress = (e) => {
                 progress(e.lengthComputable, e.loaded, e.total);
             };

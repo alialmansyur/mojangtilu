@@ -2,7 +2,7 @@ loadData();
 
 async function loadData(keyword = '') {
     var unit = $('#unit').val();
-    const response = await fetch('/fetch-layanan', {
+    const response = await fetch( AppConfig.initGlobal + 'fetch-layanan', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -96,7 +96,7 @@ function pageLoaded(data) {
 }
 
 function enrollTask(key) {
-    fetch('/store-enroll', {
+    fetch( AppConfig.initGlobal + 'store-enroll', {
             method: 'POST',
             body: JSON.stringify({
                 enrolled: key

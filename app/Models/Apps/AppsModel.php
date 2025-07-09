@@ -25,6 +25,10 @@ class AppsModel extends Model
         return $this->db->table($table)->where('id', $id)->delete();
     }
 
+    public function removeDataLogStatistik($id, $table){
+        return $this->db->table($table)->where('log_input_id', $id)->delete();
+    }    
+
     public function insertBatchData($data,$table){
         $this->table = $table;
         return $this->db->table($this->table)->insertBatch($data);

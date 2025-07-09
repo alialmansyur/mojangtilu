@@ -1,7 +1,7 @@
 loadData();
 
 async function loadData(keyword = '') {
-    const response = await fetch('/fetch-layanan-enrolled', {
+    const response = await fetch( AppConfig.initGlobal + 'fetch-layanan-enrolled', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -52,9 +52,9 @@ function pageLoaded(data) {
 
     $('.card-daily-task').on('click', function () {
         var code = $(this).attr('data-code');
-        var urlupload = '/upload-' + code;
-        var urlentry = '/entry-' + code;
-        var urlinfo = '/info-' + code;
+        var urlupload =  AppConfig.initGlobal + 'upload-' + code;
+        var urlentry =  AppConfig.initGlobal + 'entry-' + code;
+        var urlinfo =  AppConfig.initGlobal + 'info-' + code;
 
         $('.card-upload').on('click', function () {
             window.location.href = urlupload;

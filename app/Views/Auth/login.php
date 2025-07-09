@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="<?= base_url('apps/');?>assets/extensions/toastify-js/src/toastify.css">
     <script src="<?= base_url('apps/'); ?>assets/extensions/jquery/jquery.min.js"></script>
     <script src="<?= base_url('apps/'); ?>assets/extensions/toastify-js/src/toastify.js"></script>
+	<script src="<?= base_url('apps/'); ?>assets/js/custom/config.js"></script>    
     <script src="<?= base_url('apps/'); ?>assets/js/custom/authprocess.js?v=4.0"></script>
     <style>
         .rounded {
