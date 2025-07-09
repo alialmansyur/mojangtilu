@@ -542,7 +542,7 @@ body.modal-open::before {
       transparent 15px);
 } */
 
-.card-action{
+.card-action {
     cursor: pointer !important;
 }
 
@@ -623,4 +623,21 @@ table.dataTable tbody tr.parent td.control:before {
 .filepond--file-wrapper,
 .filepond--panel {
     border-radius: 0.95em !important;
+}
+
+.card-body-task {
+    position: relative;
+}
+
+.badge-position-top-end {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    font-size: 11px;
+}
+
+.deactivated-card {
+  opacity: 0.9;
+  filter: brightness(98%);
+  pointer-events: none; /* optional: non-interaktif */
 }

@@ -1,13 +1,13 @@
 <?= $this->extend('Apps/layouts/main_layout'); ?>
 <?= $this->section('content'); ?>
 <style>
-    .shct{
-        cursor:pointer !important;
+    .shct {
+        cursor: pointer !important;
     }
 </style>
 
 <div class="page-content d-flex align-items-center justify-content-center min-vh-100">
-    
+
     <div class="container-sm px-4 text-start mx-auto" style="max-width: 900px; padding: 0 2rem;">
         <h2 class="fw-bold text-primary" style="font-size: 2.4rem;">
             <strong> Halo, <?= $seslog['fullname']; ?></strong></h2>

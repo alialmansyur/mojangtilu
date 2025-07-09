@@ -34,8 +34,9 @@ function pageLoaded(data) {
         $.each(data.list, function (index, value) {
             var card = `
                 <div class="col-12 col-md-3">
-                    <div class="card text-center h-100 card-hover-border card-daily-task" data-key="${value.id}" data-alias="${value.alias}" data-code="${value.code}">
-                        <div class="card-body" style="cursor:pointer;">
+                    <div class="card text-center h-100 ${value.status == 1 ? 'card-hover-border card-daily-task' : 'deactivated-card'}" data-key="${value.id}" data-alias="${value.alias}" data-code="${value.code}">
+                        <div class="card-body card-body-task" style="cursor:pointer;">
+                            <span class="badge badge-position-top-end ${value.status == 1 ? 'bg-light-primary' : 'bg-light-secondary'}">${value.status == 1 ? 'active' : 'deactive'}</span>
                             <i class="bi bi-folder-check fs-1 text-primary mb-2"></i>
                             <h5 class="fw-bold">${value.alias}</h5>
                             <p class="text-muted small mb-0 mt-auto d-none d-md-block">

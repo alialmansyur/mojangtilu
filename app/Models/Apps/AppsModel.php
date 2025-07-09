@@ -43,7 +43,7 @@ class AppsModel extends Model
     }
 
     public function getLayananData($param, $keyword = '', $unit = '0'){
-        $builder = $this->db->table('data_layanan')->orderBy('alias', 'ASC');
+        $builder = $this->db->table('data_layanan')->orderBy('status', 'DESC');
 
         if ($unit !== '0') {
             $builder->where('bidang_id', $unit);
