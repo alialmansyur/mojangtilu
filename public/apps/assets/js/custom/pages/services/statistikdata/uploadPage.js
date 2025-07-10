@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var jenis = $('#jenis').val();
 
-    $('#myTable').on('processing.dt', function (e, settings, processing) {
+    $('#statistikTable').on('processing.dt', function (e, settings, processing) {
         var tbody = $(this).find('tbody');
         if (processing) {
             tbody.html(`

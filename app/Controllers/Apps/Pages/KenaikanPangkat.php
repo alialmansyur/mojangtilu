@@ -47,6 +47,14 @@ class KenaikanPangkat extends BaseController
         return $this->renderView('Apps/pages/services/kenaikanpangkat/info', $data);
     }
 
+    public function getDataEntryPage(){
+        $sess    = session()->get();
+        $builder = $this->kpmodel->getCurrentData($sess['username']);
+        $columns = ['nip','nama','instansi_temp','jenis_prosedur','jenis_kp','verified_by','received_date'];
+        $result  = $this->dataTables->render($builder, $columns);
+        return $this->response->setJSON($result);
+    }    
+
     public function storeMasterData(){
         $sess = session()->get();
         $file = $this->request->getFile('file');

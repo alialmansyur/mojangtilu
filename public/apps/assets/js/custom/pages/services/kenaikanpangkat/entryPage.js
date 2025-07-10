@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.btn-pull-data').on('click', function () {
         swlwaitProsessing()
         $.ajax({
-            url:  AppConfig.initGlobal + 'allocation/pull-task',
+            url: 'allocation/pull-task',
             method: 'GET',
             dataType: 'json',
             success: function (response) {
